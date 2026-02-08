@@ -77,7 +77,7 @@ function App() {
             <div className="mobile-menu">
               <a href="https://www.youtube.com/@thebrotoots">YouTube</a>
               <a href="https://www.facebook.com/turei.milner.3/">FaceBook</a>
-              <a href="#">TikTok</a>
+              <a href="https://www.tiktok.com/@thebrotoots">TikTok</a>
               <a href="#" className="login-link">
                 Login
               </a>
