@@ -21,8 +21,8 @@ function App() {
             <nav className="desktop-nav">
               <a
                 href="https://www.youtube.com/@thebrotoots"
-                // controls opening a new tab and prevents newly open tab from controlling 
-                // the original page 
+                // controls opening a new tab and prevents newly open tab from controlling
+                // the original page
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -76,7 +76,7 @@ function App() {
           {isMenuOpen && (
             <div className="mobile-menu">
               <a href="https://www.youtube.com/@thebrotoots">YouTube</a>
-              <a href="#">FaceBook</a>
+              <a href="https://www.facebook.com/turei.milner.3/">FaceBook</a>
               <a href="#">TikTok</a>
               <a href="#" className="login-link">
                 Login
