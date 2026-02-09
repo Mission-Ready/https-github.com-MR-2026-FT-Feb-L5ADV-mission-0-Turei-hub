@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="app-container">
       {/* Navbar */}
+      {/* This JSX defines a header layout with nested containers for styling and flexbox alignment.  */}
       <header className="header">
         <div className="container">
           <div className="nav-flex">
@@ -75,9 +76,27 @@ function App() {
           {/* Mobile Menu */}
           {isMenuOpen && (
             <div className="mobile-menu">
-              <a href="https://www.youtube.com/@thebrotoots">YouTube</a>
-              <a href="https://www.facebook.com/turei.milner.3/">FaceBook</a>
-              <a href="https://www.tiktok.com/@thebrotoots">TikTok</a>
+              <a
+                href="https://www.youtube.com/@thebrotoots"
+                // target="_blank"
+                // rel="noopener noreferrer"
+              >
+                YouTube
+              </a>
+              <a
+                href="https://www.facebook.com/turei.milner.3/"
+                // target="_blank"
+                // rel="noopener noreferrer"
+              >
+                FaceBook
+              </a>
+              <a
+                href="https://www.tiktok.com/@thebrotoots"
+                // target="_blank"
+                // rel="noopener noreferrer"
+              >
+                TikTok
+              </a>
               <a href="#" className="login-link">
                 Login
               </a>
@@ -96,7 +115,7 @@ function App() {
                 <br />
                 Enquire Today!
               </h1>
-              {/* added link to mission ready to search button and bar */}
+              {/* added link to mission ready to search button and placeholder */}
               <form
                 className="search-form"
                 onSubmit={(e) => e.preventDefault()}
